@@ -1,0 +1,35 @@
+package aaa;
+
+import java.util.Scanner;
+
+public class RepeatAdditionQuiz {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number1 = (int)(Math.random() * 10);
+		int number2 = (int)(Math.random() * 10);
+		int [] answer = new int[1010];
+		
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("What is " + number1 + " + " + number2 + "? ");
+		answer[0] = input.nextInt();
+		int i = 0;
+		
+		while(number1 + number2 != answer[i]){
+			int tf = 0;
+			for(int j = 0; j < i;++j){
+				if(answer[j] == answer[i]){
+					System.out.print("You already entered " + answer[i]);
+					tf = 1;
+					break;
+				}
+			}
+			if(tf == 0)	
+				System.out.print("Wrong answer. Try again. What is " + number1 + " + " + number2 + "? ");
+			i++;
+			answer[i] = input.nextInt();
+		}
+		System.out.println("You got it!");
+	}
+}
