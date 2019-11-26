@@ -1,0 +1,27 @@
+package aaa;
+
+import java.util.Scanner;
+
+public class Show {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter the integers between 1 and 100:");
+		int n = input.nextInt();
+		int [] numbers = new int[110];
+		for(int i = 0; i <= 100; i++){
+			numbers[i] = 0;
+		}
+		while(n != 0){
+			numbers[n]++;
+			n = input.nextInt();
+		}
+		for(int i = 0; i <= 100; i++){
+			if(numbers[i] != 0){
+				if(numbers[i] == 1)
+					System.out.println(i + " occurs 1 time");	
+				else
+					System.out.println(i + " occurs " + numbers[i] + " times");	
+			}		
+		}
+	}
+}
