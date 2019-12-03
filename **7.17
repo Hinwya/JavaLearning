@@ -1,0 +1,43 @@
+package aaa;
+
+import java.util.Scanner;
+
+public class Show {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter students' number:");
+		int number = input.nextInt();
+		int[] student= new int[number];
+		String[] studentName = new String[number];
+		
+		System.out.print("Enter students' name:");
+		Scanner arra = new Scanner(System.in);
+		for(int i = 0; i < number; i++){
+			String a = arra.nextLine();
+			studentName[i] = a;
+		}
+		
+		System.out.print("Enter students' sorce:");
+		for(int i = 0; i < number; i++){
+			student[i] = input.nextInt();
+		}
+
+		for(int i = 0; i < number; i++){
+			for(int j = i+1; j < number; j++){
+				if(student[j] > student[i]){
+					String arr = studentName[j];
+					studentName[j] = studentName[i];
+					studentName[i] = arr;
+					int a = student[i];
+					student[i] = student[j];
+					student[j] = a;
+				}
+			}
+		}
+	
+		for(int i = 0; i < number; ++i){
+			System.out.print(" " + studentName[i]);
+		}
+	}
+
+}
