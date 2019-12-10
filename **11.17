@@ -1,0 +1,828 @@
+package aaa;
+
+import java.util.Scanner;
+
+public class PerfectSquare {
+	public static void main(String[] args) {
+		int m;
+		int n;
+		int []smal = new int[1010];
+		int []cs = new int[1010];
+		int j = 0;
+		
+		//init
+		for(int i = 0; i < 1010; ++i)
+			cs[i] = 0;
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer m: ");
+		m = input.nextInt();
+		n = m;
+		int i = 2;
+		while(n > 1){
+			if(n % i != 0){
+				i++;	
+			}
+			else{
+				smal[j++] = i;
+				n = n / i;
+			}
+		}
+		n = 1;
+		for(i = 0; i < j; ++i){
+//			System.out.println("smal:" + smal[i]);
+				cs[smal[i]]++;
+		}
+		for(i = 0; i <= smal[j-1]; ++i){
+			if(cs[i] > 0 && cs[i] % 2 == 1)
+				n = n * i;
+		}
+		System.out.println("The smallest number n for m * n to be a perfect square is " + n);
+		System.out.print("m * n is " + m * n);
+
+	}
+
+}
+package aaa;
+
+import java.util.Scanner;
+
+public class PerfectSquare {
+	public static void main(String[] args) {
+		int m;
+		int n;
+		int []smal = new int[1010];
+		int []cs = new int[1010];
+		int j = 0;
+		
+		//init
+		for(int i = 0; i < 1010; ++i)
+			cs[i] = 0;
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer m: ");
+		m = input.nextInt();
+		n = m;
+		int i = 2;
+		while(n > 1){
+			if(n % i != 0){
+				i++;	
+			}
+			else{
+				smal[j++] = i;
+				n = n / i;
+			}
+		}
+		n = 1;
+		for(i = 0; i < j; ++i){
+//			System.out.println("smal:" + smal[i]);
+				cs[smal[i]]++;
+		}
+		for(i = 0; i <= smal[j-1]; ++i){
+			if(cs[i] > 0 && cs[i] % 2 == 1)
+				n = n * i;
+		}
+		System.out.println("The smallest number n for m * n to be a perfect square is " + n);
+		System.out.print("m * n is " + m * n);
+
+	}
+
+}
+package aaa;
+
+import java.util.Scanner;
+
+public class PerfectSquare {
+	public static void main(String[] args) {
+		int m;
+		int n;
+		int []smal = new int[1010];
+		int []cs = new int[1010];
+		int j = 0;
+		
+		//init
+		for(int i = 0; i < 1010; ++i)
+			cs[i] = 0;
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer m: ");
+		m = input.nextInt();
+		n = m;
+		int i = 2;
+		while(n > 1){
+			if(n % i != 0){
+				i++;	
+			}
+			else{
+				smal[j++] = i;
+				n = n / i;
+			}
+		}
+		n = 1;
+		for(i = 0; i < j; ++i){
+//			System.out.println("smal:" + smal[i]);
+				cs[smal[i]]++;
+		}
+		for(i = 0; i <= smal[j-1]; ++i){
+			if(cs[i] > 0 && cs[i] % 2 == 1)
+				n = n * i;
+		}
+		System.out.println("The smallest number n for m * n to be a perfect square is " + n);
+		System.out.print("m * n is " + m * n);
+
+	}
+
+}
+package aaa;
+
+import java.util.Scanner;
+
+public class PerfectSquare {
+	public static void main(String[] args) {
+		int m;
+		int n;
+		int []smal = new int[1010];
+		int []cs = new int[1010];
+		int j = 0;
+		
+		//init
+		for(int i = 0; i < 1010; ++i)
+			cs[i] = 0;
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer m: ");
+		m = input.nextInt();
+		n = m;
+		int i = 2;
+		while(n > 1){
+			if(n % i != 0){
+				i++;	
+			}
+			else{
+				smal[j++] = i;
+				n = n / i;
+			}
+		}
+		n = 1;
+		for(i = 0; i < j; ++i){
+//			System.out.println("smal:" + smal[i]);
+				cs[smal[i]]++;
+		}
+		for(i = 0; i <= smal[j-1]; ++i){
+			if(cs[i] > 0 && cs[i] % 2 == 1)
+				n = n * i;
+		}
+		System.out.println("The smallest number n for m * n to be a perfect square is " + n);
+		System.out.print("m * n is " + m * n);
+
+	}
+
+}
+package aaa;
+
+import java.util.Scanner;
+
+public class PerfectSquare {
+	public static void main(String[] args) {
+		int m;
+		int n;
+		int []smal = new int[1010];
+		int []cs = new int[1010];
+		int j = 0;
+		
+		//init
+		for(int i = 0; i < 1010; ++i)
+			cs[i] = 0;
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer m: ");
+		m = input.nextInt();
+		n = m;
+		int i = 2;
+		while(n > 1){
+			if(n % i != 0){
+				i++;	
+			}
+			else{
+				smal[j++] = i;
+				n = n / i;
+			}
+		}
+		n = 1;
+		for(i = 0; i < j; ++i){
+//			System.out.println("smal:" + smal[i]);
+				cs[smal[i]]++;
+		}
+		for(i = 0; i <= smal[j-1]; ++i){
+			if(cs[i] > 0 && cs[i] % 2 == 1)
+				n = n * i;
+		}
+		System.out.println("The smallest number n for m * n to be a perfect square is " + n);
+		System.out.print("m * n is " + m * n);
+
+	}
+
+}
+package aaa;
+
+import java.util.Scanner;
+
+public class PerfectSquare {
+	public static void main(String[] args) {
+		int m;
+		int n;
+		int []smal = new int[1010];
+		int []cs = new int[1010];
+		int j = 0;
+		
+		//init
+		for(int i = 0; i < 1010; ++i)
+			cs[i] = 0;
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer m: ");
+		m = input.nextInt();
+		n = m;
+		int i = 2;
+		while(n > 1){
+			if(n % i != 0){
+				i++;	
+			}
+			else{
+				smal[j++] = i;
+				n = n / i;
+			}
+		}
+		n = 1;
+		for(i = 0; i < j; ++i){
+//			System.out.println("smal:" + smal[i]);
+				cs[smal[i]]++;
+		}
+		for(i = 0; i <= smal[j-1]; ++i){
+			if(cs[i] > 0 && cs[i] % 2 == 1)
+				n = n * i;
+		}
+		System.out.println("The smallest number n for m * n to be a perfect square is " + n);
+		System.out.print("m * n is " + m * n);
+
+	}
+
+}
+package aaa;
+
+import java.util.Scanner;
+
+public class PerfectSquare {
+	public static void main(String[] args) {
+		int m;
+		int n;
+		int []smal = new int[1010];
+		int []cs = new int[1010];
+		int j = 0;
+		
+		//init
+		for(int i = 0; i < 1010; ++i)
+			cs[i] = 0;
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer m: ");
+		m = input.nextInt();
+		n = m;
+		int i = 2;
+		while(n > 1){
+			if(n % i != 0){
+				i++;	
+			}
+			else{
+				smal[j++] = i;
+				n = n / i;
+			}
+		}
+		n = 1;
+		for(i = 0; i < j; ++i){
+//			System.out.println("smal:" + smal[i]);
+				cs[smal[i]]++;
+		}
+		for(i = 0; i <= smal[j-1]; ++i){
+			if(cs[i] > 0 && cs[i] % 2 == 1)
+				n = n * i;
+		}
+		System.out.println("The smallest number n for m * n to be a perfect square is " + n);
+		System.out.print("m * n is " + m * n);
+
+	}
+
+}
+package aaa;
+
+import java.util.Scanner;
+
+public class PerfectSquare {
+	public static void main(String[] args) {
+		int m;
+		int n;
+		int []smal = new int[1010];
+		int []cs = new int[1010];
+		int j = 0;
+		
+		//init
+		for(int i = 0; i < 1010; ++i)
+			cs[i] = 0;
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer m: ");
+		m = input.nextInt();
+		n = m;
+		int i = 2;
+		while(n > 1){
+			if(n % i != 0){
+				i++;	
+			}
+			else{
+				smal[j++] = i;
+				n = n / i;
+			}
+		}
+		n = 1;
+		for(i = 0; i < j; ++i){
+//			System.out.println("smal:" + smal[i]);
+				cs[smal[i]]++;
+		}
+		for(i = 0; i <= smal[j-1]; ++i){
+			if(cs[i] > 0 && cs[i] % 2 == 1)
+				n = n * i;
+		}
+		System.out.println("The smallest number n for m * n to be a perfect square is " + n);
+		System.out.print("m * n is " + m * n);
+
+	}
+
+}
+package aaa;
+
+import java.util.Scanner;
+
+public class PerfectSquare {
+	public static void main(String[] args) {
+		int m;
+		int n;
+		int []smal = new int[1010];
+		int []cs = new int[1010];
+		int j = 0;
+		
+		//init
+		for(int i = 0; i < 1010; ++i)
+			cs[i] = 0;
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer m: ");
+		m = input.nextInt();
+		n = m;
+		int i = 2;
+		while(n > 1){
+			if(n % i != 0){
+				i++;	
+			}
+			else{
+				smal[j++] = i;
+				n = n / i;
+			}
+		}
+		n = 1;
+		for(i = 0; i < j; ++i){
+//			System.out.println("smal:" + smal[i]);
+				cs[smal[i]]++;
+		}
+		for(i = 0; i <= smal[j-1]; ++i){
+			if(cs[i] > 0 && cs[i] % 2 == 1)
+				n = n * i;
+		}
+		System.out.println("The smallest number n for m * n to be a perfect square is " + n);
+		System.out.print("m * n is " + m * n);
+
+	}
+
+}
+package aaa;
+
+import java.util.Scanner;
+
+public class PerfectSquare {
+	public static void main(String[] args) {
+		int m;
+		int n;
+		int []smal = new int[1010];
+		int []cs = new int[1010];
+		int j = 0;
+		
+		//init
+		for(int i = 0; i < 1010; ++i)
+			cs[i] = 0;
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer m: ");
+		m = input.nextInt();
+		n = m;
+		int i = 2;
+		while(n > 1){
+			if(n % i != 0){
+				i++;	
+			}
+			else{
+				smal[j++] = i;
+				n = n / i;
+			}
+		}
+		n = 1;
+		for(i = 0; i < j; ++i){
+//			System.out.println("smal:" + smal[i]);
+				cs[smal[i]]++;
+		}
+		for(i = 0; i <= smal[j-1]; ++i){
+			if(cs[i] > 0 && cs[i] % 2 == 1)
+				n = n * i;
+		}
+		System.out.println("The smallest number n for m * n to be a perfect square is " + n);
+		System.out.print("m * n is " + m * n);
+
+	}
+
+}
+package aaa;
+
+import java.util.Scanner;
+
+public class PerfectSquare {
+	public static void main(String[] args) {
+		int m;
+		int n;
+		int []smal = new int[1010];
+		int []cs = new int[1010];
+		int j = 0;
+		
+		//init
+		for(int i = 0; i < 1010; ++i)
+			cs[i] = 0;
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer m: ");
+		m = input.nextInt();
+		n = m;
+		int i = 2;
+		while(n > 1){
+			if(n % i != 0){
+				i++;	
+			}
+			else{
+				smal[j++] = i;
+				n = n / i;
+			}
+		}
+		n = 1;
+		for(i = 0; i < j; ++i){
+//			System.out.println("smal:" + smal[i]);
+				cs[smal[i]]++;
+		}
+		for(i = 0; i <= smal[j-1]; ++i){
+			if(cs[i] > 0 && cs[i] % 2 == 1)
+				n = n * i;
+		}
+		System.out.println("The smallest number n for m * n to be a perfect square is " + n);
+		System.out.print("m * n is " + m * n);
+
+	}
+
+}
+package aaa;
+
+import java.util.Scanner;
+
+public class PerfectSquare {
+	public static void main(String[] args) {
+		int m;
+		int n;
+		int []smal = new int[1010];
+		int []cs = new int[1010];
+		int j = 0;
+		
+		//init
+		for(int i = 0; i < 1010; ++i)
+			cs[i] = 0;
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer m: ");
+		m = input.nextInt();
+		n = m;
+		int i = 2;
+		while(n > 1){
+			if(n % i != 0){
+				i++;	
+			}
+			else{
+				smal[j++] = i;
+				n = n / i;
+			}
+		}
+		n = 1;
+		for(i = 0; i < j; ++i){
+//			System.out.println("smal:" + smal[i]);
+				cs[smal[i]]++;
+		}
+		for(i = 0; i <= smal[j-1]; ++i){
+			if(cs[i] > 0 && cs[i] % 2 == 1)
+				n = n * i;
+		}
+		System.out.println("The smallest number n for m * n to be a perfect square is " + n);
+		System.out.print("m * n is " + m * n);
+
+	}
+
+}
+package aaa;
+
+import java.util.Scanner;
+
+public class PerfectSquare {
+	public static void main(String[] args) {
+		int m;
+		int n;
+		int []smal = new int[1010];
+		int []cs = new int[1010];
+		int j = 0;
+		
+		//init
+		for(int i = 0; i < 1010; ++i)
+			cs[i] = 0;
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer m: ");
+		m = input.nextInt();
+		n = m;
+		int i = 2;
+		while(n > 1){
+			if(n % i != 0){
+				i++;	
+			}
+			else{
+				smal[j++] = i;
+				n = n / i;
+			}
+		}
+		n = 1;
+		for(i = 0; i < j; ++i){
+//			System.out.println("smal:" + smal[i]);
+				cs[smal[i]]++;
+		}
+		for(i = 0; i <= smal[j-1]; ++i){
+			if(cs[i] > 0 && cs[i] % 2 == 1)
+				n = n * i;
+		}
+		System.out.println("The smallest number n for m * n to be a perfect square is " + n);
+		System.out.print("m * n is " + m * n);
+
+	}
+
+}
+package aaa;
+
+import java.util.Scanner;
+
+public class PerfectSquare {
+	public static void main(String[] args) {
+		int m;
+		int n;
+		int []smal = new int[1010];
+		int []cs = new int[1010];
+		int j = 0;
+		
+		//init
+		for(int i = 0; i < 1010; ++i)
+			cs[i] = 0;
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer m: ");
+		m = input.nextInt();
+		n = m;
+		int i = 2;
+		while(n > 1){
+			if(n % i != 0){
+				i++;	
+			}
+			else{
+				smal[j++] = i;
+				n = n / i;
+			}
+		}
+		n = 1;
+		for(i = 0; i < j; ++i){
+//			System.out.println("smal:" + smal[i]);
+				cs[smal[i]]++;
+		}
+		for(i = 0; i <= smal[j-1]; ++i){
+			if(cs[i] > 0 && cs[i] % 2 == 1)
+				n = n * i;
+		}
+		System.out.println("The smallest number n for m * n to be a perfect square is " + n);
+		System.out.print("m * n is " + m * n);
+
+	}
+
+}
+package aaa;
+
+import java.util.Scanner;
+
+public class PerfectSquare {
+	public static void main(String[] args) {
+		int m;
+		int n;
+		int []smal = new int[1010];
+		int []cs = new int[1010];
+		int j = 0;
+		
+		//init
+		for(int i = 0; i < 1010; ++i)
+			cs[i] = 0;
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer m: ");
+		m = input.nextInt();
+		n = m;
+		int i = 2;
+		while(n > 1){
+			if(n % i != 0){
+				i++;	
+			}
+			else{
+				smal[j++] = i;
+				n = n / i;
+			}
+		}
+		n = 1;
+		for(i = 0; i < j; ++i){
+//			System.out.println("smal:" + smal[i]);
+				cs[smal[i]]++;
+		}
+		for(i = 0; i <= smal[j-1]; ++i){
+			if(cs[i] > 0 && cs[i] % 2 == 1)
+				n = n * i;
+		}
+		System.out.println("The smallest number n for m * n to be a perfect square is " + n);
+		System.out.print("m * n is " + m * n);
+
+	}
+
+}
+package aaa;
+
+import java.util.Scanner;
+
+public class PerfectSquare {
+	public static void main(String[] args) {
+		int m;
+		int n;
+		int []smal = new int[1010];
+		int []cs = new int[1010];
+		int j = 0;
+		
+		//init
+		for(int i = 0; i < 1010; ++i)
+			cs[i] = 0;
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer m: ");
+		m = input.nextInt();
+		n = m;
+		int i = 2;
+		while(n > 1){
+			if(n % i != 0){
+				i++;	
+			}
+			else{
+				smal[j++] = i;
+				n = n / i;
+			}
+		}
+		n = 1;
+		for(i = 0; i < j; ++i){
+//			System.out.println("smal:" + smal[i]);
+				cs[smal[i]]++;
+		}
+		for(i = 0; i <= smal[j-1]; ++i){
+			if(cs[i] > 0 && cs[i] % 2 == 1)
+				n = n * i;
+		}
+		System.out.println("The smallest number n for m * n to be a perfect square is " + n);
+		System.out.print("m * n is " + m * n);
+
+	}
+
+}
+package aaa;
+
+import java.util.Scanner;
+
+public class PerfectSquare {
+	public static void main(String[] args) {
+		int m;
+		int n;
+		int []smal = new int[1010];
+		int []cs = new int[1010];
+		int j = 0;
+		
+		//init
+		for(int i = 0; i < 1010; ++i)
+			cs[i] = 0;
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer m: ");
+		m = input.nextInt();
+		n = m;
+		int i = 2;
+		while(n > 1){
+			if(n % i != 0){
+				i++;	
+			}
+			else{
+				smal[j++] = i;
+				n = n / i;
+			}
+		}
+		n = 1;
+		for(i = 0; i < j; ++i){
+//			System.out.println("smal:" + smal[i]);
+				cs[smal[i]]++;
+		}
+		for(i = 0; i <= smal[j-1]; ++i){
+			if(cs[i] > 0 && cs[i] % 2 == 1)
+				n = n * i;
+		}
+		System.out.println("The smallest number n for m * n to be a perfect square is " + n);
+		System.out.print("m * n is " + m * n);
+
+	}
+
+}
+package aaa;
+
+import java.util.Scanner;
+
+public class PerfectSquare {
+	public static void main(String[] args) {
+		int m;
+		int n;
+		int []smal = new int[1010];
+		int []cs = new int[1010];
+		int j = 0;
+		
+		//init
+		for(int i = 0; i < 1010; ++i)
+			cs[i] = 0;
+		// Create a Scanner
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter an integer m: ");
+		m = input.nextInt();
+		n = m;
+		int i = 2;
+		while(n > 1){
+			if(n % i != 0){
+				i++;	
+			}
+			else{
+				smal[j++] = i;
+				n = n / i;
+			}
+		}
+		n = 1;
+		for(i = 0; i < j; ++i){
+//			System.out.println("smal:" + smal[i]);
+				cs[smal[i]]++;
+		}
+		for(i = 0; i <= smal[j-1]; ++i){
+			if(cs[i] > 0 && cs[i] % 2 == 1)
+				n = n * i;
+		}
+		System.out.println("The smallest number n for m * n to be a perfect square is " + n);
+		System.out.print("m * n is " + m * n);
+
+	}
+
+}
